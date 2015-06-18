@@ -1,0 +1,496 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video
+{
+    font: inherit;
+    font-size: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+}html
+{
+    line-height: 1;
+}ol,
+ul
+{
+    list-style: none;
+}table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}caption,
+th,
+td
+{
+    font-weight: normal;
+
+    text-align: left;
+    vertical-align: middle;
+}q,
+blockquote
+{
+    quotes: none;
+}q:before,
+q:after,
+blockquote:before,
+blockquote:after
+{
+    content: '';
+    content: none;
+}a img
+{
+    border: none;
+}article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary
+{
+    display: block;
+}*
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}body
+{
+    font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+}a
+{
+    text-decoration: none;
+}.container
+{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0;
+    padding-left: 0;
+
+    *zoom: 1;
+}.container:after
+{
+    display: table;
+    clear: both;
+
+    content: '';
+}.nav
+{
+    line-height: 48px;
+
+    display: inline;
+    float: left;
+
+    width: 100%;
+    height: 48px;
+    margin-right: 0;
+
+    text-align: right;
+
+    background-color: #1a1a1a;
+}.nav a
+{
+    font-size: 14pt;
+
+    padding-right: 30px;
+
+    color: #ccc;
+}.nav .twitter
+{
+    font-size: 0;
+
+    display: inline-block;
+
+    width: 30px;
+    height: 30px;
+
+    background: url(./images/icon_twitter.png) no-repeat center center;
+}@media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (min-resolution: 2dppx)
+{
+    .nav .twitter
+    {
+        background: url(./images/icon_twitter@2x.png) no-repeat center center;
+        background-size: 100%;
+    }
+}.banner
+{
+    display: inline;
+    float: left;
+
+    width: 100%;
+    height: 400px;
+    margin-right: 0;
+    padding: 30px 0;
+
+    text-align: center;
+
+    background: url(./images/bg_banner.png) no-repeat center top;
+    background-size: cover;
+}.banner h1
+{
+    display: block;
+
+    width: 233px;
+    height: 232px;
+    margin: 0 auto;
+
+    text-indent: -9999px;
+
+    background: url(./images/logo_rainstep.png) no-repeat center center;
+}@media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (min-resolution: 2dppx)
+{
+    .banner h1
+    {
+        background: url(./images/logo_rainstep@2x.png) no-repeat center center;
+        background-size: 100%;
+    }
+}.banner h2
+{
+    font-family: 'Courier New', Courier, mono;
+    font-size: 16pt;
+
+    margin: 10px;
+
+    color: #fff;
+    text-shadow: 0 2px 3px rgba(0,0,0,.5),0 4px 6px rgba(0,0,0,.4),0 9px 11px rgba(0,0,0,.3);
+}@media (min-width: 768px)
+{
+    .banner h2
+    {
+        font-size: 20pt;
+    }
+}@media (min-width: 960px)
+{
+    .banner h2
+    {
+        font-size: 26pt;
+    }
+}#rainfont
+{
+    display: inline;
+    float: left;
+
+    width: 100%;
+    margin-right: 0;
+    padding-top: 30px;
+}#rainfont .screenshot
+{
+    max-width: 360px;
+}#rainfont .screenshot .image
+{
+    display: block;
+
+    padding-top: 135%;
+
+    background: url(./images/screenshot_rainfont.png) no-repeat center center;
+}@media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (min-resolution: 2dppx)
+{
+    #rainfont .screenshot .image
+    {
+        background: url(./images/screenshot_rainfont@2x.png) no-repeat center center;
+        background-size: 100%;
+    }
+}#rainfont .intro
+{
+    text-align: center;
+}#rainfont .intro .icon
+{
+    display: block;
+
+    width: 102px;
+    height: 102px;
+    margin: 30px auto;
+
+    background: url(./images/logo_rainfont.png) no-repeat center center;
+}@media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (min-resolution: 2dppx)
+{
+    #rainfont .intro .icon
+    {
+        background: url(./images/logo_rainfont@2x.png) no-repeat center center;
+        background-size: 100%;
+    }
+}#rainfont .intro h1
+{
+    font-size: 30pt;
+
+    margin-top: 20px;
+}#rainfont .intro h2
+{
+    font-size: 14pt;
+
+    margin-top: 10px;
+
+    color: #666;
+}#rainfont .intro .appstore
+{
+    font-size: 0;
+
+    display: block;
+
+    width: 135px;
+    height: 40px;
+    margin: 30px auto;
+
+    background: url(./images/icon_appstore.svg) no-repeat center center;
+}@media (min-width: 320px)
+{
+    #rainfont .screenshot
+    {
+        float: left;
+
+        width: 100%;
+        margin-right: 0;
+    }#rainfont .intro
+    {
+        float: left;
+
+        width: 100%;
+        margin-right: 0;
+    }
+}@media (min-width: 768px)
+{
+    #rainfont .screenshot
+    {
+        float: left;
+
+        width: 37.5%;
+        margin-right: 0;
+    }#rainfont .intro
+    {
+        float: left;
+
+        width: 50%;
+        margin-right: 0;
+        margin-left: 12.5%;
+
+        text-align: left;
+    }#rainfont .intro .icon
+    {
+        margin: 30px 0;
+    }#rainfont .intro h1
+    {
+        font-size: 40pt;
+
+        margin-top: 20px;
+    }#rainfont .intro h2
+    {
+        font-size: 16pt;
+
+        margin: 10px 0;
+    }#rainfont .intro .appstore
+    {
+        margin: 30px 0;
+    }
+}@media (min-width: 960px)
+{
+    #rainfont .screenshot
+    {
+        float: left;
+
+        width: 33.33333%;
+        margin-right: 0;
+    }#rainfont .intro
+    {
+        float: left;
+
+        width: 58.33333%;
+        margin-right: 0;
+        margin-left: 8.33333%;
+    }
+}#about
+{
+    display: inline;
+    float: left;
+
+    width: 100%;
+    margin-right: 0;
+    padding-top: 30px;
+
+    background-color: #e6e6e6;
+}#about .member
+{
+    margin-bottom: 30px;
+
+    text-align: center;
+}#about .member .icon
+{
+    display: block;
+
+    width: 122px;
+    height: 122px;
+    margin: 0 auto;
+}#about .member h1
+{
+    font-size: 12pt;
+
+    margin-top: 10px;
+
+    color: #999;
+}#about .member h2
+{
+    font-size: 24pt;
+
+    margin-bottom: 20px;
+}#about .member .expertise p
+{
+    font-size: 13pt;
+    line-height: 1.5em;
+
+    color: #666;
+}#about #rianol .icon
+{
+    background: url(./images/icon_rianol.png) no-repeat center center;
+}@media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (min-resolution: 2dppx)
+{
+    #about #rianol .icon
+    {
+        background: url(./images/icon_rianol@2x.png) no-repeat center center;
+        background-size: 100%;
+    }
+}#about #akane .icon
+{
+    background: url(./images/icon_akane.png) no-repeat center center;
+}@media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (min-resolution: 2dppx)
+{
+    #about #akane .icon
+    {
+        background: url(./images/icon_akane@2x.png) no-repeat center center;
+        background-size: 100%;
+    }
+}@media (min-width: 320px)
+{
+    #about .member
+    {
+        float: left;
+
+        width: 100%;
+        margin-right: 0;
+    }
+}@media (min-width: 768px)
+{
+    #about .member
+    {
+        float: left;
+
+        width: 50%;
+        margin-right: 0;
+    }#about #rianol
+    {
+        border-right: 1px solid #ccc;
+    }
+}@media (min-width: 960px)
+{
+    #about .member
+    {
+        float: left;
+
+        width: 41.66667%;
+        margin-right: 0;
+    }#about #rianol
+    {
+        margin-left: 8.33333%;
+    }
+}.copyright
+{
+    font-size: 11pt;
+    line-height: 40px;
+
+    display: inline;
+    float: left;
+
+    width: 100%;
+    height: 40px;
+    margin-right: 0;
+
+    text-align: center;
+
+    color: #999;
+    background-color: #1a1a1a;
+}
